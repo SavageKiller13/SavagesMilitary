@@ -3,7 +3,9 @@ item.steel_ingot.name=Steel Ingot
 
 //Blocks
 tile.steel_block.name=Block of Steel
-tile.ore_steel_overworld_steel.name=Steel Ore
+tile.ore_steel_overworld.name=Steel Ore
+tile.ore_steel_nether.name=Nether Steel Ore
+tile.ore_steel_end.name=End Steel Ore
 
 //Tools
 item.axe_steel.name=Steel Axe
