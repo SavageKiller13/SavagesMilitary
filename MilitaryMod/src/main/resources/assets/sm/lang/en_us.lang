@@ -1,0 +1,18 @@
+//Items
+item.steel_ingot.name=Steel Ingot
+
+//Blocks
+tile.steel_block.name=Block of Steel
+tile.ore_steel_overworld_steel.name=Steel Ore
+
+//Tools
+item.axe_steel.name=Steel Axe
+item.pickaxe_steel.name=Steel Pickaxe
+item.shovel_steel.name=Steel Spade
+item.sword_steel.name=Steel Sword
+
+//Armour
+item.boots_steel.name=Steel Boots
+item.leggings_steel.name=Steel Leggings
+item.chestplate_steel.name=Steel Chestplate
+item.helmet_steel.name=Steel Helmet
