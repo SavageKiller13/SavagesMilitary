@@ -4,6 +4,7 @@ import com.Savage_Killer13.SavagesMilitary.armour.ArmourBase;
 import com.Savage_Killer13.SavagesMilitary.tools.ToolSpade;
 import com.Savage_Killer13.SavagesMilitary.tools.ToolSword;
 import com.Savage_Killer13.SavagesMilitary.items.ItemBase;
+import com.Savage_Killer13.SavagesMilitary.tools.ToolAxe;
 import com.Savage_Killer13.SavagesMilitary.tools.ToolPickaxe;
 import com.Savage_Killer13.SavagesMilitary.util.Reference;
 import java.util.ArrayList;
