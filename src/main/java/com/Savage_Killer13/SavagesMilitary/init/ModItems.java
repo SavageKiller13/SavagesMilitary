@@ -29,14 +29,14 @@ public class ModItems {
     public static final Item STEEL_INGOT = new ItemBase("steel_ingot");
     
     //Tools
-    public static final Item STEEL_AXE = new ToolAxe("steel_axe", TOOL_STEEL);
-    public static final Item STEEL_PICKAXE = new ToolPickaxe("steel_pickaxe", TOOL_STEEL);
-    public static final Item STEEL_SWORD = new ToolSword("steel_sword", TOOL_STEEL);
-    public static final Item STEEL_SPADE = new ToolSpade("steel_spade", TOOL_STEEL);
+    public static final Item STEEL_AXE = new ToolAxe("axe_steel", TOOL_STEEL);
+    public static final Item STEEL_PICKAXE = new ToolPickaxe("pickaxe_steel", TOOL_STEEL);
+    public static final Item STEEL_SWORD = new ToolSword("sword_steel", TOOL_STEEL);
+    public static final Item STEEL_SPADE = new ToolSpade("shovel_steel", TOOL_STEEL);
     
     //Armour
-    public static final Item STEEL_HELMET = new ArmourBase("steel_helmet", ARMOUR_STEEL, 1, EntityEquipmentSlot.HEAD);
-    public static final Item STEEL_CHESTPLATE = new ArmourBase("steel_chestplate", ARMOUR_STEEL, 1, EntityEquipmentSlot.CHEST);
-    public static final Item STEEL_LEGGINGS = new ArmourBase("steel_leggings", ARMOUR_STEEL, 2, EntityEquipmentSlot.LEGS);
-    public static final Item STEEL_BOOTS = new ArmourBase("steel_boots", ARMOUR_STEEL, 1, EntityEquipmentSlot.FEET);
+    public static final Item STEEL_HELMET = new ArmourBase("helmet_steel", ARMOUR_STEEL, 1, EntityEquipmentSlot.HEAD);
+    public static final Item STEEL_CHESTPLATE = new ArmourBase("chestplate_steel", ARMOUR_STEEL, 1, EntityEquipmentSlot.CHEST);
+    public static final Item STEEL_LEGGINGS = new ArmourBase("leggings_steel", ARMOUR_STEEL, 2, EntityEquipmentSlot.LEGS);
+    public static final Item STEEL_BOOTS = new ArmourBase("boots_steel", ARMOUR_STEEL, 1, EntityEquipmentSlot.FEET);
 }
