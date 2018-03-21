@@ -1,6 +1,6 @@
 package com.Savage_Killer13.SavagesMilitary.init;
 
-import com.Savage_Killer13.SavagesMilitary.blocks.BlockBase;
+import com.Savage_Killer13.SavagesMilitary.blocks.BlockOres;
 import com.Savage_Killer13.SavagesMilitary.blocks.SteelBlock;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ public class ModBlocks {
 
     public static final Block STEEL_BLOCK = new SteelBlock("steel_block", Material.IRON);
     
-    public static final Block ORE_STEEL_END = new BlockOres("ore_steel_end", "end") {};
-    public static final Block ORE_STEEL_OVERWORLD = new BlockOres("ore_steel_overworld", "overworld") {};
-    public static final Block ORE_STEEL_NETHER = new BlockOres("ore_steel_nether", "nether") {};
+    public static final Block ORE_STEEL_END = new BlockOres("ore_steel_end", Material.ROCK, 9.0f, 17.0f);
+    public static final Block ORE_STEEL_OVERWORLD = new BlockOres("ore_steel_overworld", Material.ROCK, 9.0f, 17.0f);
+    public static final Block ORE_STEEL_NETHER = new BlockOres("ore_steel_nether", Material.ROCK, 9.0f, 17.0f);
 }
