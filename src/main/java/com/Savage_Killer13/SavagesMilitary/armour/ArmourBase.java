@@ -10,7 +10,6 @@ import com.Savage_Killer13.SavagesMilitary.init.ModItems;
 import com.Savage_Killer13.SavagesMilitary.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 
 /**
