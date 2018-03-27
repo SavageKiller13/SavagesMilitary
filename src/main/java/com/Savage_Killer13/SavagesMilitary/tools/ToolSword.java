@@ -9,15 +9,16 @@ import com.Savage_Killer13.SavagesMilitary.Main;
 import com.Savage_Killer13.SavagesMilitary.init.ModItems;
 import com.Savage_Killer13.SavagesMilitary.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemSword;
 
 /**
  *
  * @author Soren Mortimer
  */
-public class ToolSword extends Item implements IHasModel {
+public class ToolSword extends ItemSword implements IHasModel {
 
     public ToolSword(String name, ToolMaterial material) {
+        super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(CreativeTabs.TOOLS);

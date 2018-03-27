@@ -9,15 +9,16 @@ import com.Savage_Killer13.SavagesMilitary.Main;
 import com.Savage_Killer13.SavagesMilitary.init.ModItems;
 import com.Savage_Killer13.SavagesMilitary.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemSpade;
 
 /**
  *
  * @author Soren Mortimer
  */
-public class ToolSpade extends Item implements IHasModel {
+public class ToolSpade extends ItemSpade implements IHasModel {
 
     public ToolSpade(String name, ToolMaterial material) {
+        super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(CreativeTabs.TOOLS);

@@ -2,6 +2,7 @@ package com.Savage_Killer13.SavagesMilitary;
 
 import com.Savage_Killer13.SavagesMilitary.proxy.CommonProxy;
 import com.Savage_Killer13.SavagesMilitary.util.Reference;
+import com.Savage_Killer13.SavagesMilitary.util.handlers.RegistryHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -21,7 +22,7 @@ public class Main {
 
     @EventHandler
     public static void PreInit(FMLPreInitializationEvent event) {
-        
+        RegistryHandler.otherRegistries();
     }
 
     @EventHandler

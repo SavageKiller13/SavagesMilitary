@@ -8,23 +8,18 @@ package com.Savage_Killer13.SavagesMilitary.tools;
 import com.Savage_Killer13.SavagesMilitary.Main;
 import com.Savage_Killer13.SavagesMilitary.init.ModItems;
 import com.Savage_Killer13.SavagesMilitary.util.IHasModel;
-import java.util.Set;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemTool;
+import net.minecraft.item.ItemPickaxe;
 
 /**
  *
  * @author Soren Mortimer
  */
-public class ToolPickaxe extends ItemTool implements IHasModel {
+public class ToolPickaxe extends ItemPickaxe implements IHasModel {
     
-    public static final Set<Block> EFFECTIVE_ON = null;
 
     public ToolPickaxe(String name, ToolMaterial material) {
-        super(material, EFFECTIVE_ON);
+        super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
         
@@ -32,7 +27,7 @@ public class ToolPickaxe extends ItemTool implements IHasModel {
         ModItems.ITEMS.add(this);
     }
 
-    
+
 
     @Override
     public void registerModels() {
