@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+        "SSS",
+        "SSS",
+        "SSS"
+    ],
+    
+    "key": {
+        "S": {
+            "item": "sm:steel_ingot"
+        }
+    },
+    
+    "result": {
+        "item": "sm:steel_block"
+    }
+}

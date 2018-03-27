@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "variant=steel": {
+            "model": "sm:ore_end_steel"
+        }
+    }
+}
