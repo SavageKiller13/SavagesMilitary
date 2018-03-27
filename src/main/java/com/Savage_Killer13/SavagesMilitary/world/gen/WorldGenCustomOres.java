@@ -27,9 +27,9 @@ public class WorldGenCustomOres implements IWorldGenerator {
     private final WorldGenerator ore_steel_overworld, ore_steel_nether, ore_steel_end;
     
     public WorldGenCustomOres() {
-        ore_steel_overworld = new WorldGenMinable(ModBlocks.ORE_STEEL_OVERWORLD.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.STEEL), 3, BlockMatcher.forBlock(Blocks.STONE));
-        ore_steel_nether = new WorldGenMinable(ModBlocks.ORE_STEEL_NETHER.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.STEEL), 3, BlockMatcher.forBlock(Blocks.NETHERRACK));
-        ore_steel_end = new WorldGenMinable(ModBlocks.ORE_STEEL_END.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.STEEL), 3, BlockMatcher.forBlock(Blocks.END_STONE));
+        ore_steel_overworld = new WorldGenMinable(ModBlocks.ORE_OVERWORLD_STEEL.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.STEEL), 3, BlockMatcher.forBlock(Blocks.STONE));
+        ore_steel_nether = new WorldGenMinable(ModBlocks.ORE_NETHER_STEEL.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.STEEL), 3, BlockMatcher.forBlock(Blocks.NETHERRACK));
+        ore_steel_end = new WorldGenMinable(ModBlocks.ORE_END_STEEL.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.STEEL), 3, BlockMatcher.forBlock(Blocks.END_STONE));
     }
 
     @Override

@@ -1,7 +1,7 @@
 {
     "variants": {
         "normal": {
-            "model": "sm:ore_steel_overworld"
+            "model": "sm:ore_overworld_steel"
         }
     }
 }

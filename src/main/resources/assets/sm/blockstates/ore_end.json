@@ -1,7 +1,7 @@
 {
     "variants": {
         "normal": {
-            "model": "sm:ore_steel_end"
+            "model": "sm:ore_end_steel"
         }
     }
 }

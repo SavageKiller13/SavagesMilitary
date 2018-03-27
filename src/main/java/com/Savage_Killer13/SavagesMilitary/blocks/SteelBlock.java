@@ -1,6 +1,5 @@
 package com.Savage_Killer13.SavagesMilitary.blocks;
 
-import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
 

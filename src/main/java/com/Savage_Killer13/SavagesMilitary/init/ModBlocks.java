@@ -13,7 +13,7 @@ public class ModBlocks {
 
     public static final Block STEEL_BLOCK = new SteelBlock("steel_block", Material.IRON);
     
-    public static final Block ORE_STEEL_END = new BlockOres("ore_steel_end", Material.ROCK);
-    public static final Block ORE_STEEL_OVERWORLD = new BlockOres("ore_steel_overworld", Material.ROCK);
-    public static final Block ORE_STEEL_NETHER = new BlockOres("ore_steel_nether", Material.ROCK);
+    public static final Block ORE_END_STEEL = new BlockOres("ore_end_steel", Material.ROCK, "end");
+    public static final Block ORE_OVERWORLD_STEEL = new BlockOres("ore_overworld_steel", Material.ROCK, "overworld");
+    public static final Block ORE_NETHER_STEEL = new BlockOres("ore_nether_steel", Material.ROCK, "nether");
 }

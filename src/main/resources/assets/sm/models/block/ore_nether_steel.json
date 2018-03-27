@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "sm:blocks/ore_steel_nether"
+		"all": "sm:blocks/ore_nether_steel"
 	}
 }

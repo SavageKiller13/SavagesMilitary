@@ -1,7 +1,7 @@
 {
     "variants": {
         "normal": {
-            "model": "sm:ore_steel_nether"
+            "model": "sm:ore_nether_steel"
         }
     }
 }
